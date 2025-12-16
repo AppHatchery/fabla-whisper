@@ -1,0 +1,32 @@
+# Virtual environments
+fabla-whisper/
+venv/
+env/
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.spec
+*.spec-debug
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+

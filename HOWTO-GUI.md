@@ -31,10 +31,12 @@ These steps create a dedicated virtual environment for Fabla Whisper so it doesn
 From Terminal:
 
 ```bash
-cd /Users/yagoarconada/GitHub/fabla-whisper
+# Navigate to the project folder (adjust path as needed)
+cd ~/fabla-whisper
 
 # Create a virtualenv named "fabla-whisper" using Python 3.11
-/Library/Frameworks/Python.framework/Versions/3.11/bin/python3 -m venv fabla-whisper
+# Note: Adjust the Python path if your Python 3.11 is installed elsewhere
+python3 -m venv fabla-whisper
 
 # Activate the environment
 source fabla-whisper/bin/activate
@@ -59,8 +61,13 @@ Later sessions just need the **activation** step.
 Every time you want to use the app:
 
 ```bash
-cd /Users/yagoarconada/GitHub/fabla-whisper
+# Navigate to the project folder
+cd ~/fabla-whisper
+
+# Activate the virtual environment
 source fabla-whisper/bin/activate
+
+# Launch the GUI
 python transcribe-whisper-gui.py
 ```
 
@@ -131,7 +138,7 @@ deactivate
 You can reactivate later with:
 
 ```bash
-cd /Users/yagoarconada/GitHub/fabla-whisper
+cd ~/fabla-whisper
 source fabla-whisper/bin/activate
 ```
 

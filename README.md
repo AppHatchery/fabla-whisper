@@ -81,8 +81,7 @@ A Python tool that uses OpenAI's Whisper model to transcribe audio files from a 
 5. The script will:
    - Process all audio files in the selected folder
    - Show real-time progress in the GUI
-   - Create a folder in your Downloads directory named `original_folder_name_transcripts`
-   - Save the transcripts to a CSV file called `transcripts.csv` in that folder
+   - Save the transcripts to a CSV file called `transcripts.csv` directly in the selected folder
    - Display a completion message when done
 
 ### Command-Line Version
@@ -98,8 +97,7 @@ A Python tool that uses OpenAI's Whisper model to transcribe audio files from a 
 
 4. The script will:
    - Process all audio files in the selected folder
-   - Create a folder in your Downloads directory named `original_folder_name_transcripts`
-   - Save the transcripts to a CSV file called `transcripts.csv` in that folder
+   - Save the transcripts to a CSV file called `transcripts.csv` directly in the selected folder
    - Display progress and a summary in the console
 
 ## Output Format
